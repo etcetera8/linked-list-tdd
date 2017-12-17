@@ -1,5 +1,6 @@
 export default class Node {
-  constructor () {
-
+  constructor(data, next) {
+    this.data = data;
+    this.next = null;
   }
 }
